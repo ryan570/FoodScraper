@@ -11,17 +11,25 @@ chrome_options.add_argument("--headless")
 
 driver = webdriver.Chrome('chromedriver.exe', options=chrome_options)
 
-def get_food(hall):
+def check_menu(hall):
     url = "https://dining.unc.edu/locations/" + encode_hall(hall) + "/?date=" + str(datetime.date.today())
 
     driver.get(url)
 
+    tabs = driver.find_elements_by_class_name("c-tabs-nav__link-inner")
     elements = driver.find_elements_by_class_name("show-nutrition")
 
-    food = []
+    food = {}
 
-    for element in elements:
-        food.append(element.text)
+    for tab in tabs:
+        tab.click()
+        time.sleep(0.5)
+        food[tab.text] = {}
+        for element in elements:
+            if element.is_displayed():
+                food[tab.text][element.text] = None
+
+    driver.close()
     
     return food
 
@@ -47,8 +55,7 @@ def get_protein(hall):
                 for i in range(3):
                     try:
                         protein = driver.find_elements_by_tag_name("th")[-1].text[8:-2]
-                        if float(protein) > 0:
-                            protein_values[element.text] = protein
+                        protein_values[element.text] = protein
                         break
                     except:
                         print("Attempt #" + str((i + 1)) + " to fetch protein data for " + element.text + " failed.") 

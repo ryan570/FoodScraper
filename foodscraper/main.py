@@ -20,5 +20,6 @@ def update_cache():
     append_data(data)
 
 if __name__ == '__main__':
-    update_cache()
+    #update_cache()
     #fetch_protein("Chase")
+    pass

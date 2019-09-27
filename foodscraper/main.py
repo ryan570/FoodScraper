@@ -5,7 +5,7 @@ from scraper import check_menu, get_protein
 
 def fetch_protein(hall):
     food = check_menu(hall)
-    cache = read_data()
+    cache = read_data('protein.json')
 
     for timeslot in food:
         for element in food[timeslot]:

@@ -72,7 +72,7 @@ def get_protein(hall):
 
 def encode_hall(hall):
     switcher = {
-        "Chase": "chase",
-        "Lenoir": "top-of-lenoir"
+        "chase": "chase",
+        "lenoir": "top-of-lenoir"
     }
     return switcher.get(hall)

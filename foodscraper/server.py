@@ -1,11 +1,10 @@
-from flask import Flask, render_template
 import wsgiserver
+from flask import Flask
+from display import display
 
 app = Flask(__name__)
 
-@app.route('/')
-def home():
-    return render_template('home.html')
+app.register_blueprint(display)
 
 if __name__ == '__main__':
     #server = wsgiserver.WSGIServer(app, port=5000)

@@ -33,6 +33,8 @@
             <thead>
                 <tr>
                     <th>Item</th>
+                    <th>Calories</th>
+                    <th>Sodium</th>
                     <th>Protein</th>
                 </tr>
             </thead>
@@ -40,6 +42,8 @@
                 {% for item in food[timeslots[0]] %}
                 <tr>
                     <th>{{item.name}}</th>
+                    <th>{{item.calories}}</th>
+                    <th>{{item.sodium}}</th>
                     <th>{{item.protein}}</th>
                 </tr>
                 {% endfor %}
@@ -63,6 +67,8 @@
             <thead>
                 <tr>
                     <th>Item</th>
+                    <th>Calories</th>
+                    <th>Sodium</th>
                     <th>Protein</th>
                 </tr>
             </thead>
@@ -70,6 +76,8 @@
                 {% for item in food[timeslot] %}
                 <tr>
                     <th>{{item.name}}</th>
+                    <th>{{item.calories}}</th>
+                    <th>{{item.sodium}}</th>
                     <th>{{item.protein}}</th>
                 </tr>
                 {% endfor %}

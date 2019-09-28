@@ -4,6 +4,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
+from item import Item
 
 chrome_options = Options()  
 chrome_options.add_argument("start-fullscreen")
@@ -33,7 +34,7 @@ def check_menu(hall):
     
     return food
 
-def get_protein(hall):
+def fetch_nutrition(hall):
     url = "https://dining.unc.edu/locations/" + encode_hall(hall) + "/?date=" + str(datetime.date.today())
 
     driver.get(url)
@@ -46,7 +47,7 @@ def get_protein(hall):
     for tab in tabs:
         tab.click()
         time.sleep(0.5)
-        protein_values = {}
+        current = []
 
         for element in elements:
             if element.is_displayed():
@@ -54,17 +55,20 @@ def get_protein(hall):
                 time.sleep(0.4)
                 for i in range(3):
                     try:
-                        protein = driver.find_elements_by_tag_name("th")[-1].text[8:-2]
-                        protein_values[element.text] = protein
+                        info = driver.find_elements_by_tag_name("th")
+                        calories = info[1].text[9:]
+                        sodium = info[7].text[7:-3]
+                        protein = info[-1].text[8:-2]
+                        current.append(Item(element.text, calories, sodium, protein))
                         break
                     except:
-                        print("Attempt #" + str((i + 1)) + " to fetch protein data for " + element.text + " failed.") 
+                        print("Attempt #" + str((i + 1)) + " to fetch nutrition data for " + element.text + " failed.") 
                         time.sleep(0.5)
 
                 webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
                 time.sleep(0.3)
     
-        food[tab.text] = protein_values
+        food[tab.text] = current
 
     driver.close
 

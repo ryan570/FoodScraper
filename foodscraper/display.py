@@ -1,16 +1,21 @@
+import jsonpickle
 from flask import Blueprint, render_template
 
+from cache import read_items, write_items
 from item import Item
-from scraper import check_menu, get_protein
-from cache import write_data, read_data
+from scraper import check_menu, fetch_nutrition
 
 display = Blueprint('display', __name__, template_folder='templates')
 
-chase = get_protein("chase")
-write_data(chase, 'chase.json')
-lenoir = get_protein("lenoir")
-write_data(lenoir, 'lenoir.json')
-#chase = read_data('chase.json')
+lenoir = read_items('lenoir.json')
+chase = read_items('chase.json')
+
+def update():
+    lenoir = fetch_nutrition("lenoir")
+    chase = fetch_nutrition("chase")
+
+    #write_items(lenoir, 'lenoir.json')
+    #write_items(chase, 'chase.json')
 
 @display.route('/')
 def home():
@@ -18,20 +23,11 @@ def home():
 
 @display.route('/<string:hall>')
 def hall(hall):
-    data = chase
+    data = chase if hall == "chase" else lenoir
 
-    menu = {}
     timeslots = []
 
     for timeslot in data:
         timeslots.append(timeslot)
-        food = []
-        for item in data[timeslot]:
-            food.append(Item(item, data[timeslot][item]))
-        menu[timeslot] = food
 
-    first = timeslots.pop(0)
-    timeslots.reverse()
-    timeslots.insert(0, first)
-
-    return render_template('display.html', food=menu, timeslots=timeslots)
+    return render_template('display.html', food=data, timeslots=timeslots)

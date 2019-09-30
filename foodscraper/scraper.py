@@ -1,16 +1,19 @@
 import datetime
 import time
+import platform
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from item import Item
 
-chrome_options = Options()  
-chrome_options.add_argument("start-fullscreen")
-chrome_options.add_argument("--headless") 
+options = Options()
+options.add_argument('--headless')
+options.add_argument('start-fullscreen')
 
-driver = webdriver.Chrome('chromedriver.exe', options=chrome_options)
+path = '/home/ryan/Projects/FoodScraper/chromedriver' if platform.system() == 'Linux' else 'chromedriver.exe'
+
+driver = webdriver.Chrome(path, options=options)
 
 def check_menu(hall):
     url = "https://dining.unc.edu/locations/" + encode_hall(hall) + "/?date=" + str(datetime.date.today())

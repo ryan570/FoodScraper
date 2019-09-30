@@ -3,7 +3,3 @@ __pycache__/
 .vscode/
 chromedriver.exe
 chromedriver
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml

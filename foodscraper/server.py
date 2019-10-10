@@ -3,6 +3,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
+application = app = Flask(__name__)
+
 app.register_blueprint(display)
 
 if __name__ == '__main__':

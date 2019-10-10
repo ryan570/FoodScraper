@@ -1,21 +1,11 @@
-import jsonpickle
 from flask import Blueprint, render_template
 
-from cache import read_items, write_items
-from item import Item
-from scraper import check_menu, fetch_nutrition
+from scraper import fetch_nutrition
 
 display = Blueprint('display', __name__, template_folder='templates')
 
-lenoir = read_items('lenoir.json')
-chase = read_items('chase.json')
-
-def update():
-    lenoir = fetch_nutrition("lenoir")
-    chase = fetch_nutrition("chase")
-
-    #write_items(lenoir, 'lenoir.json')
-    #write_items(chase, 'chase.json')
+chase = fetch_nutrition("chase")
+lenoir = fetch_nutrition("lenoir")
 
 @display.route('/')
 def home():

@@ -1,6 +1,8 @@
 import wsgiserver
 from flask import Flask
 
+from display import display
+
 app = Flask(__name__)
 
 application = app = Flask(__name__)

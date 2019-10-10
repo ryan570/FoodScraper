@@ -1,7 +1,7 @@
 import wsgiserver
 from flask import Flask
 
-from display import display
+from foodscraper.display import display
 
 app = Flask(__name__)
 

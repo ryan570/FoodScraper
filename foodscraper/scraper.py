@@ -8,8 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
-from cache import read_data
-from item import Item, create_item
+from foodscraper.cache import read_data
+from foodscraper.item import Item, create_item
 
 options = Options()
 options.add_argument('--headless')

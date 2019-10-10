@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template
 
-from scraper import fetch_nutrition
+from foodscraper.scraper import fetch_nutrition
 
 display = Blueprint('display', __name__, template_folder='templates')
 

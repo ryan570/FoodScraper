@@ -24,15 +24,30 @@
         "protein": "0",
         "sodium": "280"
     },
+    "Alfredo Sauce": {
+        "calories": "140",
+        "protein": "4",
+        "sodium": "430"
+    },
     "All Natural Peanut Butter": {
         "calories": "120",
         "protein": "5",
         "sodium": "0"
     },
+    "Almond Croissant": {
+        "calories": "460",
+        "protein": "12",
+        "sodium": "400"
+    },
     "American Cheese": {
         "calories": "40",
         "protein": "2",
         "sodium": "125"
+    },
+    "Antipasto Tortellini Salad": {
+        "calories": "130",
+        "protein": "4",
+        "sodium": "490"
     },
     "Apple": {
         "calories": "130",
@@ -49,6 +64,11 @@
         "protein": "0",
         "sodium": "170"
     },
+    "Apple and Goat Cheese with Caramelized Onion": {
+        "calories": "230",
+        "protein": "10",
+        "sodium": "410"
+    },
     "Applesauce": {
         "calories": "45",
         "protein": "0",
@@ -63,6 +83,11 @@
         "calories": "120",
         "protein": "2",
         "sodium": "115"
+    },
+    "Assorted Danishes ": {
+        "calories": "160",
+        "protein": "2",
+        "sodium": "60"
     },
     "Assorted Donuts": {
         "calories": "210",
@@ -79,10 +104,20 @@
         "protein": "2",
         "sodium": "130"
     },
+    "Assorted Rice Krispies Treat": {
+        "calories": "170",
+        "protein": "2",
+        "sodium": "210"
+    },
     "Assorted Veggie Toppings": {
         "calories": "35",
         "protein": "3",
         "sodium": "25"
+    },
+    "Assorted Veggie Toppings ": {
+        "calories": "15",
+        "protein": "0.55",
+        "sodium": "115"
     },
     "Assorted Yogurt Parfaits": {
         "calories": "140",
@@ -93,6 +128,11 @@
         "calories": "70",
         "protein": "6",
         "sodium": "40"
+    },
+    "BBQ Baked Beans": {
+        "calories": "150",
+        "protein": "6",
+        "sodium": "570"
     },
     "BBQ Soy Nuggets": {
         "calories": "300",
@@ -129,6 +169,11 @@
         "protein": "11",
         "sodium": "440"
     },
+    "Baked Beans": {
+        "calories": "120",
+        "protein": "4",
+        "sodium": "290"
+    },
     "Balsamic Vinaigrette": {
         "calories": "60",
         "protein": "0",
@@ -154,15 +199,40 @@
         "protein": "0",
         "sodium": "630"
     },
+    "Banana Pudding Parfait": {
+        "calories": "280",
+        "protein": "3",
+        "sodium": "220"
+    },
+    "Basmati Rice": {
+        "calories": "120",
+        "protein": "2",
+        "sodium": "0"
+    },
+    "Beef Carnita ": {
+        "calories": "290",
+        "protein": "13",
+        "sodium": "740"
+    },
     "Beets": {
         "calories": "10",
         "protein": "0",
         "sodium": "65"
     },
+    "Bell Peppers": {
+        "calories": "5",
+        "protein": "0",
+        "sodium": "0"
+    },
     "Biscuit": {
         "calories": "270",
         "protein": "6",
         "sodium": "840"
+    },
+    "Black Bean Burger ": {
+        "calories": "320",
+        "protein": "11",
+        "sodium": "390"
     },
     "Black Beans": {
         "calories": "20",
@@ -178,6 +248,11 @@
         "calories": "150",
         "protein": "0.94",
         "sodium": "260"
+    },
+    "Blueberry Muffin": {
+        "calories": "200",
+        "protein": "3",
+        "sodium": "90"
     },
     "Breakfast Potatoes": {
         "calories": "190",
@@ -254,6 +329,11 @@
         "protein": "2",
         "sodium": "135"
     },
+    "Cajun Chili Topping": {
+        "calories": "90",
+        "protein": "4",
+        "sodium": "150"
+    },
     "Cajun Pinto Beans": {
         "calories": "120",
         "protein": "6",
@@ -294,15 +374,40 @@
         "protein": "14",
         "sodium": "460"
     },
+    "Cheese Bread ": {
+        "calories": "200",
+        "protein": "14",
+        "sodium": "460"
+    },
+    "Cheese Omelet": {
+        "calories": "180",
+        "protein": "16",
+        "sodium": "350"
+    },
     "Cheese Ravioli Bake": {
         "calories": "280",
         "protein": "15",
         "sodium": "710"
     },
+    "Cheese Sauce": {
+        "calories": "70",
+        "protein": "3",
+        "sodium": "130"
+    },
+    "Cheese Tortellini": {
+        "calories": "70",
+        "protein": "3",
+        "sodium": "190"
+    },
     "Cherry Tomatoes": {
         "calories": "5",
         "protein": "0",
         "sodium": "0"
+    },
+    "Chickpea Curry": {
+        "calories": "80",
+        "protein": "3",
+        "sodium": "360"
     },
     "Chickpeas": {
         "calories": "40",
@@ -314,12 +419,22 @@
         "protein": "1",
         "sodium": "75"
     },
+    "Chipotle Chicken Ranch Pizza": {
+        "calories": "170",
+        "protein": "7",
+        "sodium": "400"
+    },
     "Chipotle Lime Pulled Chicken Taco": {
         "calories": "300",
         "protein": "14",
         "sodium": "590"
     },
     "Chipotle Mayo": {
+        "calories": "100",
+        "protein": "0",
+        "sodium": "75"
+    },
+    "Chipotle Mayo ": {
         "calories": "100",
         "protein": "0",
         "sodium": "75"
@@ -343,6 +458,11 @@
         "calories": "440",
         "protein": "5",
         "sodium": "380"
+    },
+    "Chocolate Chunk Scone": {
+        "calories": "260",
+        "protein": "5",
+        "sodium": "135"
     },
     "Chocolate Milk": {
         "calories": "180",
@@ -374,10 +494,20 @@
         "protein": "10",
         "sodium": "600"
     },
+    "Cilantro Lime Rice": {
+        "calories": "130",
+        "protein": "3",
+        "sodium": "90"
+    },
     "Cinnamon Roll": {
         "calories": "130",
         "protein": "3",
         "sodium": "220"
+    },
+    "Cinnamon Swirl Butterscotch Quickbread": {
+        "calories": "270",
+        "protein": "4",
+        "sodium": "170"
     },
     "Cinnamon Toast Crunch": {
         "calories": "120",
@@ -389,10 +519,20 @@
         "protein": "0",
         "sodium": "40"
     },
+    "Citrus and Herb Catfish": {
+        "calories": "120",
+        "protein": "13",
+        "sodium": "45"
+    },
     "Classic Cheese Pizza": {
         "calories": "180",
         "protein": "12",
         "sodium": "470"
+    },
+    "Classic Kiimchi-Style Cabbage": {
+        "calories": "35",
+        "protein": "1",
+        "sodium": "125"
     },
     "Classic Pepperoni Pizza": {
         "calories": "200",
@@ -404,6 +544,41 @@
         "protein": "1",
         "sodium": "200"
     },
+    "Collard Greens": {
+        "calories": "45",
+        "protein": "3",
+        "sodium": "500"
+    },
+    "Corn Pudding ": {
+        "calories": "330",
+        "protein": "4",
+        "sodium": "330"
+    },
+    "Corn Tortilla Chips": {
+        "calories": "180",
+        "protein": "3",
+        "sodium": "260"
+    },
+    "Country Chicken Gravy": {
+        "calories": "30",
+        "protein": "0.61",
+        "sodium": "105"
+    },
+    "Cran-Apple Quinoa Salad": {
+        "calories": "190",
+        "protein": "5",
+        "sodium": "260"
+    },
+    "Cream Sauce": {
+        "calories": "380",
+        "protein": "0",
+        "sodium": "40"
+    },
+    "Cream of Rice": {
+        "calories": "80",
+        "protein": "2",
+        "sodium": "10"
+    },
     "Creamy Caesar Dressing": {
         "calories": "170",
         "protein": "0.98",
@@ -413,6 +588,21 @@
         "calories": "50",
         "protein": "0.87",
         "sodium": "270"
+    },
+    "Creamy Cucumber Tomato Salad ": {
+        "calories": "50",
+        "protein": "0.87",
+        "sodium": "270"
+    },
+    "Creamy Mashed Potatoes": {
+        "calories": "100",
+        "protein": "2",
+        "sodium": "45"
+    },
+    "Creamy Queso Dip": {
+        "calories": "60",
+        "protein": "3",
+        "sodium": "230"
     },
     "Crinkle Cut Fries": {
         "calories": "180",
@@ -448,6 +638,11 @@
         "calories": "35",
         "protein": "5",
         "sodium": "320"
+    },
+    "Diced Mango": {
+        "calories": "10",
+        "protein": "0",
+        "sodium": "0"
     },
     "Diced Red Onions": {
         "calories": "10",
@@ -519,6 +714,11 @@
         "protein": "4",
         "sodium": "130"
     },
+    "French Silk Pie": {
+        "calories": "380",
+        "protein": "2",
+        "sodium": "280"
+    },
     "French Toast": {
         "calories": "180",
         "protein": "11",
@@ -528,6 +728,21 @@
         "calories": "35",
         "protein": "0",
         "sodium": "5"
+    },
+    "Fresh Garlic": {
+        "calories": "15",
+        "protein": "0.54",
+        "sodium": "0"
+    },
+    "Fried Chicken ": {
+        "calories": "630",
+        "protein": "37",
+        "sodium": "710"
+    },
+    "Fried Tater Tots": {
+        "calories": "250",
+        "protein": "3",
+        "sodium": "430"
     },
     "Froot Loops": {
         "calories": "110",
@@ -548,6 +763,11 @@
         "calories": "50",
         "protein": "0.75",
         "sodium": "10"
+    },
+    "Fudge": {
+        "calories": "270",
+        "protein": "4",
+        "sodium": "80"
     },
     "Fudge Brownie": {
         "calories": "250",
@@ -574,10 +794,20 @@
         "protein": "5",
         "sodium": "250"
     },
+    "Garlic Herb Wrap": {
+        "calories": "100",
+        "protein": "3",
+        "sodium": "270"
+    },
     "Gatorade Fruit Punch": {
         "calories": "80",
         "protein": "0",
         "sodium": "160"
+    },
+    "General Tso Tempura Chicken": {
+        "calories": "140",
+        "protein": "9",
+        "sodium": "110"
     },
     "Gluten- Free White Bread": {
         "calories": "90",
@@ -614,6 +844,11 @@
         "protein": "19",
         "sodium": "75"
     },
+    "Greek Pasta Salad": {
+        "calories": "90",
+        "protein": "3",
+        "sodium": "300"
+    },
     "Green Peas": {
         "calories": "20",
         "protein": "1",
@@ -624,6 +859,11 @@
         "protein": "0",
         "sodium": "0"
     },
+    "Grilled Cheese Sandwich": {
+        "calories": "420",
+        "protein": "14",
+        "sodium": "730"
+    },
     "Grilled Herbed Chicken Breast": {
         "calories": "140",
         "protein": "26",
@@ -633,6 +873,11 @@
         "calories": "100",
         "protein": "2",
         "sodium": "140"
+    },
+    "Guacamole Spread": {
+        "calories": "60",
+        "protein": "0.94",
+        "sodium": "100"
     },
     "Hamburger Bun": {
         "calories": "170",
@@ -654,6 +899,11 @@
         "protein": "8",
         "sodium": "470"
     },
+    "Honey BBQ Sauce ": {
+        "calories": "70",
+        "protein": "0",
+        "sodium": "210"
+    },
     "Honey Dew": {
         "calories": "30",
         "protein": "0",
@@ -663,6 +913,11 @@
         "calories": "130",
         "protein": "0",
         "sodium": "150"
+    },
+    "Honey Wheat Bread": {
+        "calories": "100",
+        "protein": "3",
+        "sodium": "70"
     },
     "Honeydew Melon": {
         "calories": "40",
@@ -694,6 +949,16 @@
         "protein": "3",
         "sodium": "170"
     },
+    "Italian Sausage": {
+        "calories": "170",
+        "protein": "19",
+        "sodium": "650"
+    },
+    "Jalapeno Cabbage Slaw": {
+        "calories": "35",
+        "protein": "0.65",
+        "sodium": "170"
+    },
     "Jalapeno Peppers": {
         "calories": "0",
         "protein": "0",
@@ -709,6 +974,11 @@
         "protein": "5",
         "sodium": "210"
     },
+    "Kale and Butternut Salad": {
+        "calories": "70",
+        "protein": "0.81",
+        "sodium": "550"
+    },
     "Ketchup": {
         "calories": "35",
         "protein": "0",
@@ -718,6 +988,11 @@
         "calories": "35",
         "protein": "2",
         "sodium": "60"
+    },
+    "Korean BBQ Tofu": {
+        "calories": "180",
+        "protein": "15",
+        "sodium": "310"
     },
     "Lactose Free Milk": {
         "calories": "90",
@@ -754,6 +1029,11 @@
         "protein": "0",
         "sodium": "310"
     },
+    "Lobster Orzo Au Gratin": {
+        "calories": "370",
+        "protein": "16",
+        "sodium": "540"
+    },
     "Low Fat Chocolate Milk": {
         "calories": "160",
         "protein": "8",
@@ -774,10 +1054,30 @@
         "protein": "2",
         "sodium": "170"
     },
+    "Manhattan Clam Chowder": {
+        "calories": "40",
+        "protein": "4",
+        "sodium": "430"
+    },
+    "Manicotti ": {
+        "calories": "340",
+        "protein": "15",
+        "sodium": "640"
+    },
+    "Marbled Brownie": {
+        "calories": "240",
+        "protein": "3",
+        "sodium": "230"
+    },
     "Margarine": {
         "calories": "100",
         "protein": "0",
         "sodium": "90"
+    },
+    "Marinara": {
+        "calories": "40",
+        "protein": "1",
+        "sodium": "320"
     },
     "Mashed Sweet Potatoes": {
         "calories": "140",
@@ -788,6 +1088,26 @@
         "calories": "100",
         "protein": "0",
         "sodium": "75"
+    },
+    "Mexican Street Corn Salad": {
+        "calories": "160",
+        "protein": "6",
+        "sodium": "360"
+    },
+    "Mini Croissant": {
+        "calories": "90",
+        "protein": "2",
+        "sodium": "95"
+    },
+    "Mixed Bell Peppers": {
+        "calories": "0",
+        "protein": "0",
+        "sodium": "0"
+    },
+    "Monterey Jack Cheese": {
+        "calories": "100",
+        "protein": "6",
+        "sodium": "180"
     },
     "Mountain Dew": {
         "calories": "110",
@@ -844,10 +1164,35 @@
         "protein": "0",
         "sodium": "5"
     },
+    "Oven Roasted Baby Carrots": {
+        "calories": "70",
+        "protein": "1",
+        "sodium": "370"
+    },
+    "PB & J Muffins": {
+        "calories": "130",
+        "protein": "4",
+        "sodium": "125"
+    },
     "Pancake Syrup": {
         "calories": "100",
         "protein": "0",
         "sodium": "55"
+    },
+    "Pancake Syrup ": {
+        "calories": "100",
+        "protein": "0",
+        "sodium": "55"
+    },
+    "Peach Almond Crumb Cake": {
+        "calories": "320",
+        "protein": "3",
+        "sodium": "420"
+    },
+    "Peach Ricotta and Arugula Pizza": {
+        "calories": "170",
+        "protein": "8",
+        "sodium": "340"
     },
     "Peanut Butter": {
         "calories": "120",
@@ -858,6 +1203,21 @@
         "calories": "20",
         "protein": "1",
         "sodium": "20"
+    },
+    "Penne": {
+        "calories": "120",
+        "protein": "4",
+        "sodium": "0"
+    },
+    "Peppermint White Chocolate Brownie": {
+        "calories": "240",
+        "protein": "3",
+        "sodium": "170"
+    },
+    "Peppers and Onions Sautee": {
+        "calories": "40",
+        "protein": "1",
+        "sodium": "0"
     },
     "Pepsi": {
         "calories": "100",
@@ -879,6 +1239,11 @@
         "protein": "0",
         "sodium": "0"
     },
+    "Pineapple Mango Smoothie": {
+        "calories": "130",
+        "protein": "2",
+        "sodium": "20"
+    },
     "Pita Wedges": {
         "calories": "70",
         "protein": "2",
@@ -899,6 +1264,16 @@
         "protein": "2",
         "sodium": "130"
     },
+    "Pomodoro Sauce": {
+        "calories": "70",
+        "protein": "1",
+        "sodium": "290"
+    },
+    "Popcorn Shrimp": {
+        "calories": "120",
+        "protein": "5",
+        "sodium": "90"
+    },
     "Poppy Bagel": {
         "calories": "390",
         "protein": "14",
@@ -914,7 +1289,17 @@
         "protein": "6",
         "sodium": "550"
     },
+    "Potato and Leek Soup ": {
+        "calories": "110",
+        "protein": "3",
+        "sodium": "440"
+    },
     "Pretzel Roll": {
+        "calories": "310",
+        "protein": "2",
+        "sodium": "720"
+    },
+    "Pretzel Roll ": {
         "calories": "310",
         "protein": "2",
         "sodium": "720"
@@ -949,12 +1334,22 @@
         "protein": "0",
         "sodium": "280"
     },
+    "Raspberry Cheesecake Parfait": {
+        "calories": "410",
+        "protein": "4",
+        "sodium": "280"
+    },
     "Raspberry Vinaigrette": {
         "calories": "130",
         "protein": "0",
         "sodium": "45"
     },
     "Red Velvet Cupcake": {
+        "calories": "330",
+        "protein": "3",
+        "sodium": "490"
+    },
+    "Red Velvet Cupcake ": {
         "calories": "330",
         "protein": "3",
         "sodium": "490"
@@ -968,6 +1363,11 @@
         "calories": "120",
         "protein": "8",
         "sodium": "115"
+    },
+    "Rice Blend": {
+        "calories": "160",
+        "protein": "3",
+        "sodium": "160"
     },
     "Rice Krispie Treats": {
         "calories": "260",
@@ -984,6 +1384,16 @@
         "protein": "16",
         "sodium": "1920"
     },
+    "Roasted Brussels Sprouts": {
+        "calories": "70",
+        "protein": "4",
+        "sodium": "270"
+    },
+    "Roasted Cherry Tomatoes": {
+        "calories": "30",
+        "protein": "0.97",
+        "sodium": "640"
+    },
     "Roasted Fresh Asparagus": {
         "calories": "25",
         "protein": "2",
@@ -993,6 +1403,16 @@
         "calories": "45",
         "protein": "1",
         "sodium": "240"
+    },
+    "Roasted Squash & Zucchini": {
+        "calories": "50",
+        "protein": "1",
+        "sodium": "90"
+    },
+    "Roasted Tomato": {
+        "calories": "40",
+        "protein": "1",
+        "sodium": "170"
     },
     "Romaine Lettuce": {
         "calories": "10",
@@ -1009,6 +1429,11 @@
         "protein": "3",
         "sodium": "230"
     },
+    "Salsa": {
+        "calories": "5",
+        "protein": "0",
+        "sodium": "200"
+    },
     "Sausage & Kale Penne": {
         "calories": "240",
         "protein": "13",
@@ -1018,6 +1443,11 @@
         "calories": "90",
         "protein": "3",
         "sodium": "160"
+    },
+    "Sausage Pizza": {
+        "calories": "230",
+        "protein": "14",
+        "sodium": "590"
     },
     "Sauteed Onion": {
         "calories": "20",
@@ -1054,6 +1484,16 @@
         "protein": "5",
         "sodium": "270"
     },
+    "Seasoned Black-Eyed Peas": {
+        "calories": "80",
+        "protein": "4",
+        "sodium": "510"
+    },
+    "Seasoned Taco Beef": {
+        "calories": "160",
+        "protein": "10",
+        "sodium": "460"
+    },
     "Sesame Bagel": {
         "calories": "400",
         "protein": "14",
@@ -1084,6 +1524,11 @@
         "protein": "0",
         "sodium": "20"
     },
+    "Simply Roasted Diced Potatoes": {
+        "calories": "120",
+        "protein": "2",
+        "sodium": "250"
+    },
     "Skim Milk": {
         "calories": "80",
         "protein": "8",
@@ -1105,6 +1550,11 @@
         "sodium": "0"
     },
     "Sliced Dill Pickles": {
+        "calories": "0",
+        "protein": "0",
+        "sodium": "55"
+    },
+    "Sliced Dill Pickles ": {
         "calories": "0",
         "protein": "0",
         "sodium": "55"
@@ -1154,12 +1604,27 @@
         "protein": "11",
         "sodium": "550"
     },
+    "Sofrito Black Beans": {
+        "calories": "110",
+        "protein": "3",
+        "sodium": "380"
+    },
     "Sour Cream": {
         "calories": "50",
         "protein": "0.91",
         "sodium": "45"
     },
+    "Sour Cream ": {
+        "calories": "50",
+        "protein": "0.91",
+        "sodium": "45"
+    },
     "Sourdough": {
+        "calories": "90",
+        "protein": "4",
+        "sodium": "190"
+    },
+    "Sourdough ": {
         "calories": "90",
         "protein": "4",
         "sodium": "190"
@@ -1189,10 +1654,25 @@
         "protein": "0",
         "sodium": "230"
     },
+    "Spicy Pepper Steak": {
+        "calories": "220",
+        "protein": "11",
+        "sodium": "1000"
+    },
+    "Spicy Tuna Roll": {
+        "calories": "80",
+        "protein": "5",
+        "sodium": "170"
+    },
     "Spinach": {
         "calories": "15",
         "protein": "1",
         "sodium": "45"
+    },
+    "Spinach Wrap ": {
+        "calories": "100",
+        "protein": "3",
+        "sodium": "280"
     },
     "Spring Salad Mix": {
         "calories": "10",
@@ -1208,6 +1688,11 @@
         "calories": "60",
         "protein": "2",
         "sodium": "50"
+    },
+    "Steamed Edamame": {
+        "calories": "170",
+        "protein": "12",
+        "sodium": "140"
     },
     "Steamed Green Peas": {
         "calories": "70",
@@ -1249,10 +1734,20 @@
         "protein": "4",
         "sodium": "50"
     },
+    "Strawberry Yogurt ": {
+        "calories": "100",
+        "protein": "4",
+        "sodium": "50"
+    },
     "Sun Dried Tomato Dressing": {
         "calories": "60",
         "protein": "0",
         "sodium": "0"
+    },
+    "Sundried Tomato Basil Wrap": {
+        "calories": "100",
+        "protein": "3",
+        "sodium": "230"
     },
     "Sunflower Bread": {
         "calories": "70",
@@ -1268,6 +1763,11 @@
         "calories": "110",
         "protein": "0",
         "sodium": "45"
+    },
+    "Sweet Potato Bread Pudding": {
+        "calories": "250",
+        "protein": "6",
+        "sodium": "630"
     },
     "Sweet Tea": {
         "calories": "90",
@@ -1304,6 +1804,11 @@
         "protein": "5",
         "sodium": "300"
     },
+    "Toppings Station ": {
+        "calories": "90",
+        "protein": "3",
+        "sodium": "280"
+    },
     "Tropicana Fruit Punch": {
         "calories": "110",
         "protein": "0",
@@ -1329,10 +1834,20 @@
         "protein": "9",
         "sodium": "330"
     },
+    "Turkey Dog": {
+        "calories": "150",
+        "protein": "7",
+        "sodium": "740"
+    },
     "Turkey Gravy": {
         "calories": "0",
         "protein": "0",
         "sodium": "0"
+    },
+    "Turmeric Tofu Scramble": {
+        "calories": "170",
+        "protein": "16",
+        "sodium": "250"
     },
     "Vanilla Greek Yogurt": {
         "calories": "110",
@@ -1344,20 +1859,45 @@
         "protein": "6",
         "sodium": "100"
     },
+    "Vanilla Yogurt": {
+        "calories": "90",
+        "protein": "5",
+        "sodium": "65"
+    },
     "Vegan Banana French Toast": {
         "calories": "170",
         "protein": "6",
         "sodium": "200"
+    },
+    "Vegan Banana Oatmeal Cookie": {
+        "calories": "130",
+        "protein": "2",
+        "sodium": "110"
     },
     "Vegan Blueberry Muffin": {
         "calories": "210",
         "protein": "3",
         "sodium": "240"
     },
+    "Vegan Brownies ": {
+        "calories": "200",
+        "protein": "2",
+        "sodium": "100"
+    },
     "Vegan Burger Patty": {
         "calories": "130",
         "protein": "4",
         "sodium": "1080"
+    },
+    "Vegan Burger Patty ": {
+        "calories": "130",
+        "protein": "4",
+        "sodium": "1080"
+    },
+    "Vegan Cheese Pizza": {
+        "calories": "160",
+        "protein": "5",
+        "sodium": "500"
     },
     "Vegan Coffee Cake": {
         "calories": "220",
@@ -1369,15 +1909,45 @@
         "protein": "1",
         "sodium": "45"
     },
+    "Vegan Flourless Double Chocolate Bread": {
+        "calories": "220",
+        "protein": "7",
+        "sodium": "160"
+    },
     "Vegan Homestyle Pancake": {
         "calories": "120",
         "protein": "3",
         "sodium": "160"
     },
+    "Vegan Mac & Cheese": {
+        "calories": "450",
+        "protein": "12",
+        "sodium": "410"
+    },
+    "Vegan Makhani": {
+        "calories": "80",
+        "protein": "11",
+        "sodium": "200"
+    },
+    "Vegan Peanut Butter Banana Bread": {
+        "calories": "90",
+        "protein": "2",
+        "sodium": "60"
+    },
+    "Vegetable Egg Roll": {
+        "calories": "170",
+        "protein": "5",
+        "sodium": "520"
+    },
     "Veggie Fried Rice with Chili Garlic Sauce": {
         "calories": "180",
         "protein": "5",
         "sodium": "140"
+    },
+    "Veggie Sausage Patties": {
+        "calories": "100",
+        "protein": "12",
+        "sodium": "300"
     },
     "Wheat Bagel": {
         "calories": "400",
@@ -1394,12 +1964,22 @@
         "protein": "3",
         "sodium": "150"
     },
+    "Wheat Sub Roll": {
+        "calories": "190",
+        "protein": "6",
+        "sodium": "170"
+    },
     "Whipped Cream Topping": {
         "calories": "15",
         "protein": "0",
         "sodium": "0"
     },
     "White Bread": {
+        "calories": "100",
+        "protein": "3",
+        "sodium": "190"
+    },
+    "White Bread ": {
         "calories": "100",
         "protein": "3",
         "sodium": "190"
@@ -1419,19 +1999,49 @@
         "protein": "7",
         "sodium": "350"
     },
+    "White Tortilla": {
+        "calories": "200",
+        "protein": "6",
+        "sodium": "550"
+    },
+    "Whole Grain Penne": {
+        "calories": "120",
+        "protein": "4",
+        "sodium": "10"
+    },
     "Whole Milk": {
         "calories": "150",
         "protein": "8",
         "sodium": "105"
+    },
+    "Whole Wheat French Toast": {
+        "calories": "210",
+        "protein": "10",
+        "sodium": "280"
     },
     "Wild Cherry Pepsi": {
         "calories": "100",
         "protein": "0",
         "sodium": "20"
     },
+    "Yellow American Cheese": {
+        "calories": "120",
+        "protein": "5",
+        "sodium": "290"
+    },
     "Yellow Mustard": {
         "calories": "0",
         "protein": "0",
         "sodium": "160"
+    },
+    "Yellow Onions": {
+        "calories": "10",
+        "protein": "0",
+        "sodium": "0"
+    },
+    "Zesty Salsa Verde": {
+        "calories": "0",
+        "protein": "0",
+        "sodium": "40"
     }
 }

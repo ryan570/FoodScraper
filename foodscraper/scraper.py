@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
-from foodscraper.cache import read_data
+from foodscraper.cache import read_data, append_data
 from foodscraper.item import Item, create_item
 
 options = Options()
@@ -35,44 +35,56 @@ def fetch_nutrition(hall):
                 unknown.append(item)
             current_list.append(current)
         nutrition[timeslot] = current_list
+    
+    if unknown:
+    
+        url = "https://dining.unc.edu/locations/" + encode_hall(hall) + "/?date=" + str(datetime.date.today())
+
+        driver.get(url)
+
+        updated = {}
+
+        tabs = driver.find_elements_by_class_name("c-tabs-nav__link-inner")
+
+        for tab in tabs:
+            tab.click()
+            time.sleep(1)
+
+            for item in unknown:
+                try:
+                    element = driver.find_element_by_link_text(item.strip())
+                except:
+                    break
+                if element.is_displayed():
+                    element.click()
+                    time.sleep(1)
+
+                    for i in range(3):
+                        try:
+                            info = driver.find_elements_by_tag_name("th")
+                            updated[item] = {
+                                "calories": info[1].text[9:],
+                                "sodium": info[7].text[7:-3],
+                                "protein": info[-1].text[8:-2]
+                            }
+                            break
+                        except:
+                            print("Attempt #" + str((i + 1)) + " to fetch nutrition data for " + element.text + " failed.") 
+                            time.sleep(0.5)
+
+                    webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+                    time.sleep(0.5)
+        driver.close
+
+        append_data(updated)
+
+        for food_list in nutrition.values():
+            for item in food_list:
+                if item.name in updated:
+                    info = updated[item.name]
+                    item = Item(item, info["calories"], info["sodium"], info["protein"])
 
     return nutrition
-    
-    # url = "https://dining.unc.edu/locations/" + encode_hall(hall) + "/?date=" + str(datetime.date.today())
-
-    # driver.get(url)
-
-    # food = {}
-
-    # for tab in tabs:
-    #     tab.click()
-    #     time.sleep(0.5)
-    #     current = []
-
-    #     for element in elements:
-    #         if element.is_displayed():
-    #             element.click()
-    #             time.sleep(0.4)
-    #             for i in range(3):
-    #                 try:
-    #                     info = driver.find_elements_by_tag_name("th")
-    #                     calories = info[1].text[9:]
-    #                     sodium = info[7].text[7:-3]
-    #                     protein = info[-1].text[8:-2]
-    #                     current.append(Item(element.text, calories, sodium, protein))
-    #                     break
-    #                 except:
-    #                     print("Attempt #" + str((i + 1)) + " to fetch nutrition data for " + element.text + " failed.") 
-    #                     time.sleep(0.5)
-
-    #             webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
-    #             time.sleep(0.3)
-    
-    #     food[tab.text] = current
-
-    # driver.close
-
-    # return food
 
 def check_menu(hall):
     url = "https://dining.unc.edu/locations/" + encode_hall(hall) + "/?date=" + str(datetime.date.today())
